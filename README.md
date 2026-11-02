@@ -2,17 +2,27 @@
 
 **Test a pump fun sniper rule offline on real, bundled PumpSwap trade data—with fees, slippage, order-size impact and delayed simulated fills.**
 
-For Solana trading-bot builders who want to inspect a rule before connecting a wallet. Python 3.10+, standard library only. No installation step, API key, RPC or wallet. The preview runs offline.
-
-## Clone and run
-
-With Git and Python already installed, these are the only commands:
-
 ```sh
 git clone https://github.com/launchtape-io/pump-fun-backtest.git
 cd pump-fun-backtest
 python3 backtest.py
 ```
+
+Sample output (default rule; hypothetical fills, net of modeled costs):
+
+```text
+Mint                                          Status        Exit          Net SOL
+9pAbYE6q9t5F8tDdrJWrVyMKEYhZnPLwB6hNEHPSnkkt  closed        stop_loss     -0.028915
+4DpjsfKA8uSzscqWsyZqqZJ83wvopfBmmmAsqJpnH7Kd  closed        stop_loss     -0.032502
+4iYeHbhvzCjFGHfUGpPLvnh1xhv4jeUF55zD19ebpump  not_followed  -             NA
+QUVBoi1AHedr7Qd1nQ38wPiVc3vLbZUkujQaZsUBAmE   closed        take_profit   +0.043834
+iePvikENbZPW37zX3aQFrUB1gwTRMrUQTSXtjQApump   closed        stop_loss     -0.032988
+Five graduates cannot establish an edge.
+```
+
+## Run and change the rule
+
+For Solana trading-bot builders who want to inspect a rule before connecting a wallet. Python 3.10+, standard library only. No installation step, API key, RPC or wallet. The preview runs offline.
 
 On Windows, use `py -3 backtest.py`. Clone size is about 2.3 MB of bundled data; execution should take seconds, with no network calls. The two-minute setup target assumes Git and Python are available.
 
