@@ -1,0 +1,30 @@
+{
+  "source_url": "https://raw.githubusercontent.com/marklavigueur-dev/solana-launch-tape/ca61b6a80d9d0acd52acc97594de1101cd8e1be9/sample/gradtrades-2026-10-10-1400-1600utc.jsonl.gz",
+  "source_git_blob_sha1": "ea636a0107adf62df1ddeec8b1d7bb5cd63f0146",
+  "source_sha256": "398ba6b94380d1539e79e02f065b1a27f85361bf740cefe9ac37d17c2616826f",
+  "source_bytes": 66441533,
+  "retrieved_utc": "2026-11-02T18:03:36.563366+00:00",
+  "selection": "First five graduation records by (t, mint), retaining every row for those mints and all down/up rows; no outcome filter. Original JSONL lines unchanged.",
+  "source_window_start_ms": 1791640800000,
+  "source_window_end_ms": 1791648000000,
+  "source_graduations": 105,
+  "mints": [
+    "9pAbYE6q9t5F8tDdrJWrVyMKEYhZnPLwB6hNEHPSnkkt",
+    "4DpjsfKA8uSzscqWsyZqqZJ83wvopfBmmmAsqJpnH7Kd",
+    "4iYeHbhvzCjFGHfUGpPLvnh1xhv4jeUF55zD19ebpump",
+    "QUVBoi1AHedr7Qd1nQ38wPiVc3vLbZUkujQaZsUBAmE",
+    "iePvikENbZPW37zX3aQFrUB1gwTRMrUQTSXtjQApump"
+  ],
+  "files": {
+    "preview.jsonl.gz": {
+      "sha256": "52ce4a727f886c65ddb737d8cb194a6cdee6ebfb68651928523eaaa13ae5fc48",
+      "bytes": 2298462,
+      "rows": 14496
+    }
+  },
+  "notes": [
+    "Arrival timestamps, not guaranteed chain transaction order.",
+    "Public preview, not a representative sample or proof of profitability.",
+    "Data has separate research-use terms; code MIT does not cover data."
+  ]
+}

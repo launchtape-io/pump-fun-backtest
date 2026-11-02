@@ -1,0 +1,9 @@
+Solana Launch Tape - data licence
+
+Copyright (c) 2026 Launch Tape.
+
+You may use the data files (including the free sample) for personal and research use, inside your own team.
+You may not resell, republish or redistribute the files, in whole or in part, or share them outside your own team.
+Derived results (charts, papers, models, strategies) are yours.
+
+The data is provided as is, with no warranty of any kind. It is market data, not financial advice.
